@@ -13,6 +13,7 @@
     --custom-dark-blue: #10142C;
     --custom-green: #1EC29F;
     --custom-white: #FFFFFF;
+    --custom-hover-gray: rgb(143, 143, 143);
 }
 
 * {
@@ -109,6 +110,11 @@ body {
     text-decoration: none;
 }
 
+.header-link:hover, 
+.header-link:active {
+    color: var(--custom-green);
+}
+
 .header-phone {
     font-size: 16px;
     font-weight: 600;
@@ -152,8 +158,14 @@ body {
 
 .intro-picture-img {
     width: 150px;
+    height: auto;
+    animation: rotate 10s linear infinite;
 }
 
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
 
 .intro-title {
     font-size: 90px;
@@ -178,10 +190,15 @@ body {
     text-decoration: none;
     font-size: 19px;
     font-weight: 500;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out, 
+                background-color 0.2s ease-in-out;
 }
 
 .intro-button:hover {
-    opacity: 0.9;
+    background-color: var(--custom-white);
+    color: var(--custom-dark-blue);
+    border: 3px solid var(--custom-dark-blue);
+    transform: scale(2);
 }
 
 .intro-bottom {
@@ -213,6 +230,22 @@ body {
     font-size: 19px;
     font-weight: 500;
     text-align: center;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.intro-bottom-services-item:nth-child(even):hover,
+.intro-bottom-services-item:nth-child(even):active {
+    color: var(--custom-white);
+    background-color: var(--custom-hover-gray);
+    border: 3px solid var(--custom-hover-gray);
+    cursor: pointer;
+}
+
+.intro-bottom-services-item:nth-child(odd):hover,
+.intro-bottom-services-item:nth-child(odd):active {
+    color: var(--custom-white);
+    background-color: var(--custom-dark-blue);
+    cursor: pointer;
 }
 
 /* Intro styles end */
@@ -287,10 +320,14 @@ body {
     text-decoration: none;
     font-size: 19px;
     font-weight: 500;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out, 
+                background-color 0.2s ease-in-out, border 0.2s ease-in-out;
 }
 
 .about-us-button:hover {
-    opacity: 0.9;
+    background-color: var(--custom-white);
+    color: var(--custom-dark-blue);
+    border: 3px solid var(--custom-dark-blue);
 }
 
 .about-us-grid {
@@ -552,10 +589,13 @@ body {
     text-align: center;
     font-family: Onest;
     max-width: 315px;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out, 
+                background-color 0.2s ease-in-out;
 }
 
 .contact-form-button:hover {
-    opacity: 0.8;
+    background-color: var(--custom-green);
+    color: var(--custom-dark-blue) !important;
 }
 
 .contact-form-item label,

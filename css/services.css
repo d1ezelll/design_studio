@@ -309,6 +309,13 @@ body {
     text-align: center;
     font-family: Onest;
     max-width: 315px;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out, 
+                background-color 0.2s ease-in-out;
+}
+
+.contact-form-button:hover {
+    background-color: var(--custom-green);
+    color: var(--custom-dark-blue) !important;
 }
 
 .contact-form-item label,
