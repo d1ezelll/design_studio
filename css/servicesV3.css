@@ -303,6 +303,12 @@ body {
     font-weight: 400;
 }
 
+
+.contact-adres {
+    font-size: 18px;
+    font-weight: 400;
+}
+
 .contact-link {
     text-decoration: none;
 }
