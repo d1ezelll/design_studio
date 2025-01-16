@@ -280,10 +280,12 @@ body {
 }
 
 .contact-phone-number {
+    color: var(--custom-dark-blue) !important;
     position: relative;
     font-size: 46px;
     font-weight: 600;
     z-index: 3;
+    text-decoration: none !important;
 }
 
 .contact-phone-background {
@@ -570,5 +572,9 @@ body {
 
     .portfolio-item {
         width: 75vw;
+    }
+
+    .contact-phone-number {
+        font-size: 30px;
     }
 }

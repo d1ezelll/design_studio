@@ -522,10 +522,12 @@ body {
 }
 
 .contact-phone-number {
+    color: var(--custom-dark-blue) !important;
     position: relative;
     font-size: 46px;
     font-weight: 600;
     z-index: 3;
+    text-decoration: none !important;
 }
 
 .contact-phone-background {
@@ -808,6 +810,11 @@ body {
     .about-us-grid {
     margin-top: 30px;
     }
+
+    .contact-phone-number {
+        font-size: 30px;
+    }
+    
 }
 
 @media (max-width: 620px) {
