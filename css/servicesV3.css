@@ -155,32 +155,38 @@ body {
 }
 
 .services-grid-item:nth-child(1):hover,
-.services-grid-item:nth-child(1):active {
+.services-grid-item:nth-child(1):active,
+.services-grid-item:nth-child(1):focus {
     background-color: var(--custom-green);
 }
 
 .services-grid-item:nth-child(2):hover,
-.services-grid-item:nth-child(2):active {
+.services-grid-item:nth-child(2):active,
+.services-grid-item:nth-child(2):focus {
     background-color: #69bcff;
 }
 
 .services-grid-item:nth-child(3):hover,
-.services-grid-item:nth-child(3):active {
+.services-grid-item:nth-child(3):active,
+.services-grid-item:nth-child(3):focus {
     background-color: #d49fff;
 }
 
 .services-grid-item:nth-child(4):hover,
-.services-grid-item:nth-child(4):active {
+.services-grid-item:nth-child(4):active,
+.services-grid-item:nth-child(4):focus {
     background-color: #ffc476;
 }
 
 .services-grid-item:nth-child(5):hover,
-.services-grid-item:nth-child(5):active {
+.services-grid-item:nth-child(5):active,
+.services-grid-item:nth-child(5):focus {
     background-color: #e5ff89;
 }
 
 .services-grid-item:nth-child(6):hover,
-.services-grid-item:nth-child(6):active {
+.services-grid-item:nth-child(6):active,
+.services-grid-item:nth-child(6):focus {
     background-color: #ffa3a3;
 }
 
@@ -190,7 +196,8 @@ body {
 }
 
 .services-grid-item-arrow-img:hover, 
-.services-grid-item-arrow-img:active {
+.services-grid-item-arrow-img:active,
+.services-grid-item-arrow-img:focus {
     background-color: var(--custom-white);
 }
 

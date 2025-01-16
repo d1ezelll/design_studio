@@ -146,7 +146,8 @@ body {
 }
 
 .portfolio-item-img:hover,
-.portfolio-item-img:active {
+.portfolio-item-img:active,
+.portfolio-item-img:focus {
     transform: scale(1.05);
 }
 

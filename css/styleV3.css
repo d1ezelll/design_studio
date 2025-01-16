@@ -111,7 +111,8 @@ body {
 }
 
 .header-link:hover, 
-.header-link:active {
+.header-link:active, 
+.header-link:focus {
     color: var(--custom-green);
 }
 
@@ -234,7 +235,8 @@ body {
 }
 
 .intro-bottom-services-item:nth-child(even):hover,
-.intro-bottom-services-item:nth-child(even):active {
+.intro-bottom-services-item:nth-child(even):active,
+.intro-bottom-services-item:nth-child(even):focus {
     color: var(--custom-white);
     background-color: var(--custom-hover-gray);
     border: 3px solid var(--custom-hover-gray);
@@ -242,7 +244,8 @@ body {
 }
 
 .intro-bottom-services-item:nth-child(odd):hover,
-.intro-bottom-services-item:nth-child(odd):active {
+.intro-bottom-services-item:nth-child(odd):active,
+.intro-bottom-services-item:nth-child(odd):focus {
     color: var(--custom-white);
     background-color: var(--custom-dark-blue);
     cursor: pointer;
@@ -276,7 +279,8 @@ body {
 }
 
 .portfolio-item:hover,
-.portfolio-item:active {
+.portfolio-item:active,
+.portfolio-item:focus {
     transform: scale(1.05);
 }
 
