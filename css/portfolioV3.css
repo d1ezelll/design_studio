@@ -351,6 +351,12 @@ body {
 
 /* Adaptation */
 
+@media (max-width: 1620px) {
+    .header-nav {
+        margin-right: 0;
+    }
+}
+
 @media (max-width: 1360px) {
     .intro-top {
         row-gap: 20px;

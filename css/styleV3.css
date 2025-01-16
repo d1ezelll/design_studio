@@ -422,6 +422,10 @@ body {
 .reviews-grid {
     margin-top: 100px;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
 }
 
 .arrow-prev {
@@ -457,6 +461,16 @@ body {
     flex-wrap: wrap;
     column-gap: 20px;
     align-items: flex-start;
+    width: 90vw;
+}
+
+#secondItem {
+    display: none;
+}
+
+#lewis {
+    max-width: 100px;
+    border-radius: 50%;
 }
 
 .reviews-item-content {
@@ -483,6 +497,7 @@ body {
     font-size: 14px;
     font-weight: 500;
 }
+
 /* Reviews styles end */
 
 /* Contact styles start */
@@ -683,6 +698,12 @@ body {
 /* Footer styles end */
 
 /* Adaptation */
+
+@media (max-width: 1620px) {
+    .header-nav {
+        margin-right: 0;
+    }
+}
 
 @media (max-width: 1360px) {
     .intro-top {
