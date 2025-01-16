@@ -189,7 +189,8 @@ body {
     border-radius: 50%;
 }
 
-.services-grid-item-arrow-img:hover {
+.services-grid-item-arrow-img:hover, 
+.services-grid-item-arrow-img:active {
     background-color: var(--custom-white);
 }
 
