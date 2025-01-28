@@ -695,6 +695,11 @@ body {
     padding-right: 10vw;
 }
 
+.privacy-policy {
+    text-decoration: none;
+    color: var(--custom-black) !important;
+}
+
 /* Footer styles end */
 
 /* Adaptation */
